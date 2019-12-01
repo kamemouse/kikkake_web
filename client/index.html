@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>IBM Cloud Web Starter</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-      </head>
+      <title>IBM Cloud Web Starter</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .centering_owner {
+        padding: 20px;              /* 余白指定 */
+        background-color:  #ddd;    /* 背景色指定 */
+        /* height: 150px;              /* 高さ指定 */ */
+        height: 60%;
+      }
+
+      .top_area {
+        width: 80%;
+        text-align: center;
+        margin:  0 auto;
+      }
+      .video_area {
+        width: 80%;
+        height: 600px;
+        text-align: center;
+        border: double 5px red;
+        margin:  0 auto;
+      }
+      .recipe_name {
+        width: 80%;
+        text-align: center;
+        margin:  0 auto;
+      }
+
+
+      .rightedging_owner {
+        margin-left: 50%;
+        padding: 20px;              /* 余白指定 */
+        background-color:  #ddd;    /* 背景色指定 */
+        /* height: 150px;              /* 高さ指定 */ */
+        height: 200px;
+      }
+
+      .qr_area {
+        text-align: rigth;
+        /* margin:  0 auto; */
+      }
+
+      .qr_code_img {
+        width: 200px;
+      }
+
+      </style>
+    </head>
     <body>
-両面テープ
-        <div id="app">You need to enable JavaScript to run this app.</div>
+      <div class="centering_owner">
+        <div class="top_area">
+          今日のオススメは・・・
+        </div>
+        <div class="video_area">
+          動画エリア
+        </div>
+        <div class="recipe_name">
+          ハンバーグ<br />
+          浜松青葉クレソン添え！！
+        </duv>
+      </div>
+
+      <div class="rightedging_owner">
+        <div class="qr_area">
+          QRコード
+          <img class="qr_code_img" src="qrcode.png" />
+        </div>
+      </div>
     </body>
 </html>
