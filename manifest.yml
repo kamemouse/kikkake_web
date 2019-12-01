@@ -8,5 +8,5 @@ applications:
     name: nodejsreactapp
     buildpack: sdk-for-nodejs
     memory: 256M
-    domain: not-used.net
-    host: not-used
+    domain: mybluemix.net
+    host: kikkake
