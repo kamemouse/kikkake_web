@@ -17,7 +17,8 @@ require('./routers/index')(app, server);
 
 // Add your code here
 
-app.use(express.static('public'));
+app.use('/static', express.static('public'));
+
 
 // Add your code upper
 
