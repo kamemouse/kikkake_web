@@ -17,6 +17,10 @@ require('./routers/index')(app, server);
 
 // Add your code here
 
+app.use(express.static('public'));
+
+// Add your code upper
+
 const port = process.env.PORT || localConfig.port;
 server.listen(port, function(){
   logger.info(`nodejsreactapp listening on http://localhost:${port}`);
