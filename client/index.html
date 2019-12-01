@@ -1,88 +1,100 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>IBM Cloud Web Starter</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <style>
 
-      body {
-        background-color: #ddd;
-      }
+<head>
+  <title>きっかけレシピ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background-color: #ddd;
+    }
 
-      .centering_owner {
-        padding: 20px;              /* 余白指定 */
-        /* background-color:  #ddd;    /* 背景色指定 */ */
-        /* height: 150px;              /* 高さ指定 */ */
-        height: 60%;
-      }
+    .centering_owner {
+      padding: 20px;
+      /* 余白指定 */
+      /* background-color:  #ddd;    /* 背景色指定 */
+      */
+      /* height: 150px;              /* 高さ指定 */
+      */ height: 60%;
+    }
 
-      .top_area {
-        width: 80%;
-        text-align: center;
-        margin:  0 auto;
-        color: #A757A8;
-        font-size: 1.5em
-      }
-      .video_area {
-        width: 80%;
-        height: 600px;
-        text-align: center;
-        border: double 5px red;
-        margin:  0 auto;
-      }
-      .video_youtube {
-        width: 100%;
-        height: 100%
-      }
+    .top_area {
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      color: #A757A8;
+      font-size: 1.5em
+    }
 
-      .recipe_name {
-        width: 80%;
-        text-align: center;
-        margin:  0 auto;
-        /* color: #dd0000; */
-        font-size: 1.3em;
-      }
+    .video_area {
+      width: 80%;
+      height: 600px;
+      text-align: center;
+      border: double 5px red;
+      margin: 0 auto;
+    }
+
+    .video_youtube {
+      width: 100%;
+      height: 100%
+    }
+
+    .recipe_name {
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      /* color: #dd0000; */
+      font-size: 1.3em;
+    }
 
 
-      .rightedging_owner {
-        margin-left: 30%;
-        padding: 20px;              /* 余白指定 */
-        /* background-color:  #ddd;    /* 背景色指定 */ */
-        /* height: 150px;              /* 高さ指定 */ */
-        height: 200px;
-      }
+    .rightedging_owner {
+      margin-left: 30%;
+      padding: 20px;
+      /* 余白指定 */
+      /* background-color:  #ddd;    /* 背景色指定 */
+      */
+      /* height: 150px;              /* 高さ指定 */
+      */ height: 200px;
+    }
 
-      .qr_area {
-        text-align: rigth;
-        /* margin:  0 auto; */
-      }
+    .qr_area {
+      text-align: rigth;
+      /* margin:  0 auto; */
+    }
 
-      .qr_code_img {
-        width: 200px;
-      }
+    .qr_code_img {
+      width: 200px;
+    }
+  </style>
+</head>
 
-      </style>
-    </head>
-    <body>
-      <div class="centering_owner">
-        <div class="top_area">
-          今日のオススメは・・・
-        </div>
-        <div class="video_area">
-          <iframe class="video_youtube" src="https://www.youtube.com/embed/tGn0VFoklAY?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="recipe_name">
-          ハンバーグ<br />
-          浜松青葉クレソン添え！！
-        </duv>
+<body>
+  <div class="centering_owner">
+    <div class="top_area">
+      今日のオススメは・・・
+
+    </div>
+    <div class="video_area">
+      <iframe class="video_youtube"
+        src="https://www.youtube.com/embed/tGn0VFoklAY?autoplay=1&controls=0"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div>
+    <div class="recipe_name">
+      ハンバーグ<br />
+      浜松青葉クレソン添え！！
+      </duv>
+    </div>
+
+    <div class="rightedging_owner">
+      <div class="qr_area">
+        <img class="qr_code_img" src="http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=https://jatopia.ja-shizuoka.or.jp/" />
+        <br />
+        持ち帰りレシピ、生産者情報はこちらから！
       </div>
+    </div>
+</body>
 
-      <div class="rightedging_owner">
-        <div class="qr_area">
-          <img class="qr_code_img" src="http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=https://jatopia.ja-shizuoka.or.jp/" />
-          <br />
-          持ち帰りレシピ、生産者情報はこちらから！
-        </div>
-      </div>
-    </body>
 </html>
